@@ -296,6 +296,21 @@ These are potential areas for investigation based on the observed results, not p
 - Git
 - Jupyter Notebook or Visual Studio Code with Jupyter support
 
+### Project Configuration
+
+The project includes two configuration files to support repository management and reproducibility.
+
+- **`.gitignore`:** Excludes temporary files, Python caches, local environments, and generated datasets that can be recreated. This helps keep the GitHub repository clean and focused on the project deliverables.
+- **`requirements.txt`:** Lists the Python libraries required to run the analysis, including Pandas, NumPy, Matplotlib, Seaborn, Jupyter, and OpenPyXL.
+
+To install the required dependencies, run:
+
+```bash
+python -m pip install -r requirements.txt
+```
+
+The original dataset should be downloaded from the UCI Machine Learning Repository and placed in the `data/` directory before running the notebook.
+
 ### Clone the Repository
 
 ```bash

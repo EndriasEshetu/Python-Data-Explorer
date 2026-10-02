@@ -1,0 +1,59 @@
+
+# ==============================
+# Python cache and compiled files
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ==============================
+# Virtual environments
+# ==============================
+.venv/
+venv/
+env/
+ENV/
+
+# ==============================
+# Jupyter Notebook
+# ==============================
+.ipynb_checkpoints/
+
+# ==============================
+# Data files
+# ==============================
+# Original dataset (download separately)
+data/Online Retail.xlsx
+
+# Generated datasets (recreated by the notebook)
+data/raw_sales.csv
+data/cleaned_transactions.csv
+data/cleaned_sales.csv
+data/engineered_sales.csv
+
+# ==============================
+# Environment variables and secrets
+# ==============================
+.env
+.env.*
+!.env.example
+
+# ==============================
+# Logs and temporary files
+# ==============================
+*.log
+*.tmp
+*.bak
+
+# ==============================
+# Operating system files
+# ==============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================
+# IDE settings
+# ==============================
+.vscode/
+.idea/
